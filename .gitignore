@@ -1,0 +1,22 @@
+# Secrets and local environment
+.env
+.env.*
+!.env.example
+
+# Certificates and private keys
+*.pem
+*.key
+*.p12
+*.pfx
+*.crt
+*.cer
+
+# Local secrets and runtime data
+secrets/
+certs/
+credentials/
+**/config/secrets*
+**/config/private*
+*.log
+.DS_Store
+Thumbs.db
